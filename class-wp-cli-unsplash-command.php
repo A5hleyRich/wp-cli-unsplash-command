@@ -20,9 +20,9 @@ class WP_CLI_Unsplash_Command extends WP_CLI_Command {
 	 *
 	 * ## EXAMPLES
 	 *
-	 *     wp media generate --count=10
-	 *     wp media generate --media_date=random
-	 *     wp media generate --media_dimensions=1080x720
+	 *     wp unsplash --count=10
+	 *     wp unsplash --media_date=random
+	 *     wp unsplash --media_dimensions=1080x720
 	 */
 	public function __invoke( $args, $assoc_args = array() ) {
 		$defaults = array(
